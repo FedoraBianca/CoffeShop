@@ -1,0 +1,15 @@
+form{
+    /*background-color: aquamarine;*/
+    width: 80%;
+    margin: 1em auto 1em auto;
+    text-align: center;
+}
+
+form label{
+    display:block;
+}
+
+form .button{
+    display: block;
+    margin: 0.5em auto 0em auto;
+}

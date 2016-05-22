@@ -5,7 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Coffee Shop</title>
         <link rel="stylesheet" type="text/css" href="master.css">
+        <script src="rezscript.js"></script>
         <script src="menu.js"></script>
+        
 	</head>
 	<body>
 
@@ -21,34 +23,22 @@
             
             </header>
        
-            <section class="home">
+            <section class="rezervari">
             
-                <article>
-                    <div class="content trending">
-                    <h3>Contact</h3>
-                        <strong>Adresa:</strong>
-                        <p>Str. Lipscani, Nr. 1, Bucureşti</p>
-                        <p>0757 086 699 - info &amp rezervari</p>
-                        <strong>Email:</strong>
-                        <p>office&#64coffeeshop.ro</p>
-                        <strong>Cod Postal:</strong>
-                        <p>050971</p>
-                    </div>
-                </article>
-        
-                <article>
-                    <div class="content find-it">
-                        <h3>Program</h3>
-                        <strong>Luni &#45 Vineri:</strong>
-                        <p>08:00 &#45 22:00</p>
-                        <strong>Samb&#259t&#259&#45Duminic&#259:</strong>
-                        <p>10:00 &#45 20:00</p>
-                    </div>
-                </article>
                 
+                    <form name="rezform" enctype='application/json' class="rezform" action="" method="get">
+                        <h1>Rezerva o masa online</h1>
+                        <label>Data rezervarii:</label> <input name="data" type="date" class="input data" placeholder="Ziua/Luna/Anul" required/>
+                        <label>Ora:</label><input name="ora" type="time" class="input ora" placeholder="00:00" required/>
+                        <label>Nume:</label><input name="nume" type="text" class="input password" placeholder="Nume" />
+                        <label>Prenume:</label><input name="prenume" type="text" class="input password" placeholder="Prenume" required/>
+                        <label>Telefon:</label><input name="telefon" type="tel" class="input password" placeholder="0743552436" required/>
+                        <label>Email:</label><input name="email" type="email" class="input password" placeholder="ceva@alteva.com" required/>
+                        <input type="submit" name="submit" value="Trimite" class="button" />
+                
+                    </form>         
             </section>
             
-
 
 
             <nav>
@@ -60,7 +50,7 @@
                         <a title="Meniu" href="#" aria-haspopup="true" class="page outlink">Meniu</a>
                         <ul>
                             <li>
-                                <a title="Cafea Macinata" href="meniu_cm.html">Cafea Macinata</a>
+                                <a title="Cafea Macinata" href="meniu_cm.html" >Cafea Macinata</a>
                             </li>
                             <li>
                                 <a title="Cafea Instant" href="meniu_ci.html">Cafea Instant</a>
@@ -82,7 +72,6 @@
                                         
                 </ul>
             </nav>
-       
         
             <footer>
                 &copy; Coffee Shop
