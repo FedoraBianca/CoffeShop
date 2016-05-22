@@ -1,0 +1,46 @@
+nav{
+    background-color: rgba(0,0,0,0.65);
+    position: absolute;
+    top: 0px; left: 0px;
+    padding: 50px 0 0 0;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+nav::after{ content: ''; display: block; clear:both;}
+nav ul{ list-style: none; margin: 0; padding: 0;}
+nav ul li:hover{ background-color: #22453b ;}
+nav ul li:hover > ul{ display: block;}
+nav ul li a{
+    display: inline-block;
+    color: white;
+    padding: 10px 20x;
+    text-decoration: none;
+    width: 125px;
+    position: relative;
+}
+nav ul li a:visited{ color: white;}
+nav ul li a:hover{ background-color: #2d5649;}
+nav ul ul { position: absolute; top:100%; background-color: #DBA84A; display: none;}
+nav ul li ul a{ padding:0.5em;}
+
+/* top-level */
+nav > ul { padding-left: 20%;}
+nav > ul > li { float:left; }
+nav > ul > li > a { width: auto; padding: 10px 20px 15px 20px;}
+
+nav a[aria-haspopup="true"]::after{
+    content:'';
+    display: block; width: 0px; height: 0px;
+    position: absolute;
+    top:16px; right: 15px;
+    border-top: 4px solid transparent;
+    border-bottom: 4x solid transparent;
+    border-left: 4px solid #fff;
+}
+nav > ul >li > a[aria-haspopup="true"]::after{ 
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #fff;
+    left: 20px; right: auto;
+    bottom: 6px; top: auto;
+}

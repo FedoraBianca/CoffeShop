@@ -1,0 +1,11 @@
+.meniu { padding: 0; margin: 3em auto; position: relative; width: 80%;}
+section.meniu article{ width: 32.5%; float: left; text-align: center; margin: 0 8.75;}
+figure {margin: 0 auto; padding: 0; position:relative;}
+
+@keyframes anim1 {
+    from { width: 75%;}
+    to {width: 80%;}
+}
+figure  img { width: 75%; position: relative; }
+
+figcaption { margin: 0 auto; padding: 0;}

@@ -1,0 +1,29 @@
+/* Text */
+h1{
+    margin: 0 0 1em 0;
+    font-size: 2.8;
+    font-weight: 700;
+}
+h2{
+    margin: 0 0 0.5em 0;
+    font-size: 1.6em;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+h3{
+    margin: 0 0 0.5em 0;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+h4{
+    margin: 0 0 1.5em 0;
+    font-size: 1em;
+    font-weight: 700;
+}
+p{margin: 0 0 1em 0;}
+a{ color:#007eff;}
+a:visited{ color:#65b1ff;}
+
+
+a.btn{ font-size: 1.2em; text-decoration: none; color: white; border: 1px solid white; padding: 4px 15px; transition: background-color .5s; }
+a.btn:hover{ background-color: rgba(0,0,0,.3);}

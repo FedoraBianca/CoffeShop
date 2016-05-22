@@ -1,0 +1,32 @@
+@import url('typo.css');
+@import url('header.css');
+@import url('menu.css');
+@import url('section1.css');
+@import url('section2.css');
+@import url('footer.css');
+@import url('media.css');
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,300,700,700italic);
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url(https://fonts.googleapis.com/css?family=Handlee);
+
+/*--------Colors:----------
+dark green: #22453b
+lightder green: #2d5649
+dark orange: chocolate
+lighter orange: #DBA84A
+-------------------------*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
+page{
+    max-width: 1200px;
+    margin:  auto;
+    position: relative;
+}

@@ -1,0 +1,22 @@
+/* Header */
+header{
+    height: 430px;
+    background: #DBA84A url(images/banner1.png) no-repeat center bottom;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header a.logo{
+    z-index: 1;
+    position: absolute;
+    display: block;
+    width:180px;
+    height: 66px;
+    background: url(images/logo1.png) no-repeat 0 0;
+    background-size: contain;
+    top: 15px;
+    left:20px;
+}
+
+header div.hero{ position:absolute; width: 42%; top: 30%; left: 55%;}
+header div.hero h1{ line-height: 1em; font-family: 'Handlee', cursive; margin: 0 0 30px 0; color: white;}
+header div.hero h2{ font-family: 'Handlee', cursive; }
