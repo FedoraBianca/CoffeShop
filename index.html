@@ -6,6 +6,7 @@
 		<title>Coffee Shop</title>
         <link rel="stylesheet" type="text/css" href="master.css">
         <script src="menu.js"></script>
+        <script src="footer.js"></script>
 	</head>
 	<body>
 
@@ -23,8 +24,8 @@
        
             <section class="home">
             
-                <article>
-                    <div class="content trending">
+                <article class="animate">
+                    <div >
                     <h3>Descriere locatie</h3>
                     <p>Coffee Shop este conceptul nou al brand-ului Caffe Shop.</p>
                     <p>La parter exista un punct TO GO si vanzare de cafea vrac proaspat prajita de origine.</p>
@@ -32,8 +33,8 @@
                     </div>
                 </article>
         
-                <article>
-                    <div class="content find-it">
+                <article class="animate">
+                    <div >
                     <h3>Organizam Evenimente</h3>
                     <strong>In cadrul Coffee Shop se pot organiza:</strong>
                         <p>  </p>
@@ -79,6 +80,13 @@
             </nav>
         
             <footer>
+                
+                <form name="myForm" id="controlform" action="">
+                    <div class="controller"><input type="radio" name="myRadios" id="enable" value="true"> enable transitions<br></div>
+                    <div class="controller"><input type="radio" name="myRadios" id="disable" value="false"> disable transitions<br></div>
+                </form>
+                
+                
                 &copy; Coffee Shop
                 <div class="content">
                     <a title="Developer" href="https://www.linkedin.com/in/fedora-bianca-stan-648102b4?trk=hp-identity-name" target="_blank">Designed&#38Developed by Bianca </a>
@@ -86,7 +94,7 @@
             </footer>
         
         </div>
-
+        
 
 
 
