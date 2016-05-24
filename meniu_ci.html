@@ -6,6 +6,7 @@
 		<title>Coffee Shop</title>
         <link rel="stylesheet" type="text/css" href="master.css">
         <script src="menu.js"></script>
+        <script src="footer.js"></script>
 	</head>
 	<body>
 
@@ -24,7 +25,7 @@
             <section class="meniu">
             
                 <article>
-                    <div class="content ">
+                    <div class="content fade">
                                 <figure id="fig1">
                                     <img class="figimg" src="meniu/cafea_instant/1ci.jpg" alt="The Pulpit Rock" >
                                     <figcaption>IDEE Gold Express Instant 250g<p id="pret">34,50 RON</p></figcaption>
@@ -33,7 +34,7 @@
                 </article>
         
                 <article>
-                    <div class="content ">
+                    <div class="content fade">
                                 <figure id="fig2">
                                     <img class="figimg" src="meniu/cafea_instant/2ci.jpg" alt="The Pulpit Rock">
                                     <figcaption>Eilles Gourmet Instant 100g<p id="pret">18,26 RON</p></figcaption>
@@ -42,7 +43,7 @@
                 </article>
                 
                 <article>
-                    <div class="content find-it">
+                    <div class="content fade">
                                 <figure id="fig3">
                                     <img id="img3" class="figimg" src="meniu/cafea_instant/3ci.jpg" alt="The Pulpit Rock" >
                                     <figcaption>Movenpick Cafe Instant 100g<p id="pret">25,28 RON</p></figcaption>
@@ -51,7 +52,7 @@
                 </article>
                 
                 <article>
-                    <div class="content find-it">
+                    <div class="content fade">
                                 <figure id="fig4">
                                     <img class="figimg" src="meniu/cafea_instant/4ci.jpg" alt="The Pulpit Rock" >
                                     <figcaption>IDEE Gold Express Instant Decaf 200g<p id="pret">47,93 RON</p></figcaption>
@@ -60,7 +61,7 @@
                 </article>
                 
                 <article>
-                    <div class="content find-it">
+                    <div class="content fade">
                                 <figure id="fig5">
                                     <img class="figimg" src="meniu/cafea_instant/5ci.jpg" alt="The Pulpit Rock" ><figcaption>IDEE Gold Express Instant 100g<p id="pret">18,26 RON</p></figcaption>
                                 </figure>
@@ -68,7 +69,7 @@
                 </article>
                 
                 <article>
-                    <div class="content find-it">
+                    <div class="content fade">
                                 <figure id="fig6">
                                    <img class="figimg" src="meniu/cafea_instant/6ci.jpg" alt="The Pulpit Rock" >
                                     <figcaption>Cafea Intencion Instant 200g<p id="pret">248,35 RON</p></figcaption>
@@ -114,6 +115,13 @@
        
         
             <footer>
+                                
+                <form name="myForm" id="controlform" action="">
+                    <div class="controller"><input type="radio" name="myRadios" id="enable" value="true"> enable transitions<br></div>
+                    <div class="controller"><input type="radio" name="myRadios" id="disable" value="false"> disable transitions<br></div>
+                </form>
+                
+                
                 &copy; Coffee Shop
                 <div class="content">
                     <a title="Developer" href="https://www.linkedin.com/in/fedora-bianca-stan-648102b4?trk=hp-identity-name" target="_blank">Designed&#38Developed by Bianca </a>

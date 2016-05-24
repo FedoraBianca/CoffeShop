@@ -25,7 +25,7 @@
             <section class="meniu">
             
                 <article>
-                    <div class="content ">
+                    <div class="content fade">
                                 <figure id="fig1">
                                     <img class="figimg" src="meniu/ciocolata_calda/1cioc.jpg" alt="The Pulpit Rock" width="304" height="228">
                                     <figcaption>Cocaya Ciocolata alba 25g.<p id="pret">2,31 RON</p></figcaption>
@@ -34,7 +34,7 @@
                 </article>
         
                 <article>
-                    <div class="content ">
+                    <div class="content fade">
                                 <figure id="fig2">
                                     <img class="figimg" src="meniu/ciocolata_calda/2cioc.jpg" alt="The Pulpit Rock" width="304" height="228">
                                     <figcaption>Cocaya Ciocolata Clasica <p id="pret">1,89 RON</p></figcaption>
@@ -43,7 +43,7 @@
                 </article>
                 
                 <article>
-                    <div class="content find-it">
+                    <div class="content fade">
                                 <figure id="fig3">
                                    <img id="img3" class="figimg" src="meniu/ciocolata_calda/3cioc.jpg"  height="228">
                                     <figcaption>Ciocolata Calda Powder Richard 1kg<p id="pret">59,67 RON</p></figcaption>
@@ -52,7 +52,7 @@
                 </article>
                 
                 <article>
-                    <div class="content find-it">
+                    <div class="content fade">
                                 <figure id="fig4">
                                    <img class="figimg" src="meniu/ciocolata_calda/4cioc.jpg" alt="The Pulpit Rock" >
                                     <figcaption>Ciocolata Calda Dairy Powder Richard 1kg.<p id="pret">79,72 RON</p></figcaption> 
@@ -61,7 +61,7 @@
                 </article>
                 
                 <article>
-                    <div class="content find-it">
+                    <div class="content fade">
                                 <figure id="fig5">
                                     <img class="figimg" src="meniu/ciocolata_calda/5cioc.jpg" alt="The Pulpit Rock" >
                                     <figcaption>Ciocolata Calda Powder Richard 20g<p id="pret">1,75 RON</p></figcaption>  
@@ -70,7 +70,7 @@
                 </article>
                 
                 <article>
-                    <div class="content find-it">
+                    <div class="content fade">
                                 <figure id="fig6">
                                     <img class="figimg" src="meniu/ciocolata_calda/6cioc.jpg" alt="The Pulpit Rock" >
                                     <figcaption>Ciocolata Calda Dairy Powder Richard 30g<p id="pret">3,00 RON</p></figcaption>      
@@ -116,6 +116,14 @@
        
         
             <footer>
+                             
+                <form name="myForm" id="controlform" action="">
+                    <div class="controller"><input type="radio" name="myRadios" id="enable" value="true"> enable transitions<br></div>
+                    <div class="controller"><input type="radio" name="myRadios" id="disable" value="false"> disable transitions<br></div>
+                </form>
+                
+                   
+                
                 &copy; Coffee Shop
                 <div class="content">
                     <a title="Developer" href="https://www.linkedin.com/in/fedora-bianca-stan-648102b4?trk=hp-identity-name" target="_blank">Designed&#38Developed by Bianca </a>
@@ -124,25 +132,6 @@
         
         </div>
 
-<script>
-imgArray = document.getElementsByTagName("img");
-opacity = 0;
-for( var i = 0; i<imgArray.length;i++)
-imgArray[i].style.opacity ="0";
-
-var myVar = setInterval(function(){ myFadeOut() }, 100);
-
-function myFadeOut() {
-          for( var i = 0; i<imgArray.length;i++)
-      imgArray[i].style.opacity = ""+opacity;
-      opacity += 0.1;
-     if(opacity >= 1) {
-         clearInterval(myVar);
-     }
-}
-
-
-</script>
 
 
 
