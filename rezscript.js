@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 var x = Math.floor((Math.random() * 10)/2 + 1);
 var clasa = "masa";
 var resclass = clasa.concat(x.toString());    
