@@ -13,7 +13,17 @@ if(mm<10) {
     mm='0'+mm
 } 
 today = mm+'/'+dd+'/'+yyyy; 
-document.getElementById("time").innerHTML = today ;   
+document.getElementById("time").innerHTML = today ; 
+
+myObject = document.getElementById("time");  
+myObject.mytimezone = "  Textul utilizeaza zona temporala +2UTC";   
+var text = document.createTextNode(myObject.mytimezone);
+//var mesaj = "Acest site foloseste zona temporala ";    
+//text = mesaj.concat(text);
+myObject.addEventListener("click", function(){
+    document.getElementById("time").style.color="blue";
+    document.getElementById("time").appendChild(text);
+});
     
     
 
